@@ -15,6 +15,8 @@ Please indent code with `4 spaces`, no tabs!
 
 For your own sake, use `virtualenv`, which is installed in the requirements.
 
-This project as of now is running on [bootstrap3](http://getbootstrap.com/) for the front end, flask for our backend framework, and we are using [jinja2](http://jinja.pocoo.org/docs/) for our templating engine. We also intend on using [dwolla](https://www.dwolla.com/) for payments and [tokbox](http://tokbox.com/) (maybe) for video.
+This project as of now is running on [bootstrap3](http://getbootstrap.com/) for the front end, [flask](http://flask.pocoo.org/) for our backend framework, and we are using [jinja2](http://jinja.pocoo.org/docs/) for our templating engine. 
+
+We also intend on using [dwolla](https://www.dwolla.com/) for payments and [tokbox](http://tokbox.com/) (maybe) for video.
 
 
