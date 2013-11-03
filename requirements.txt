@@ -1,0 +1,4 @@
+flask==0.10.1
+jinja2==2.7.1
+virtualenv==1.9.1
+
