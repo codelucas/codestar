@@ -1,0 +1,16 @@
+.jumbotron {
+  margin-bottom: 0px !important;
+}
+
+.introtron {
+  background: #354B5E;
+}
+
+.business-description {
+  background: #D74B4B;
+}
+
+.pricing {
+  background: #475F77;
+  overflow: hidden;
+}

@@ -10,8 +10,11 @@ __version__ = '0.0.1'
 # Imports
 from flask import Flask
 from flask import render_template
+from flask.ext.scss import Scss
+
 
 app = Flask(__name__)
+Scss(app)
 
 # routing and controllers
 # =======================
