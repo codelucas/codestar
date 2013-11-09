@@ -1,16 +1,26 @@
-.jumbotron {
-  margin-bottom: 0px !important;
+#home-page{
+  color: #9A9A9A;
 }
 
-.introtron {
-  background: #354B5E;
+
+#description-section, #logistics-section, #philosophy-section {
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
-.business-description {
-  background: #D74B4B;
+.title-of-section {
+  font-size: 60px;
+  margin-bottom: 30px;
+  color: #354B5E;
 }
 
-.pricing {
-  background: #475F77;
-  overflow: hidden;
+#description-section, #logistics-section > ul > li {
+  font-size: 35px;
 }
+
+#philosophy-section > p {
+  font-size: 28px;
+}
+
+
+

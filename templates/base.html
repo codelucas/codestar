@@ -8,7 +8,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href='http://fonts.googleapis.com/css?family=Roboto:300italic' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}" type="text/css" media ="screen"/>
-        <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap-theme.min.css') }}" type="text/css" media ="screen"/>
         <link rel="stylesheet" href="{{ url_for('static', filename='css/general.css') }}" type="text/css" media ="screen"/>
         <link rel="stylesheet" href="{{ url_for('static', filename='css/navbar.css') }}" type="text/css" media ="screen"/>
         <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}" type="text/css" media ="screen"/>
@@ -16,9 +15,18 @@
     </head>
 
     <body>
-      <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <a class="navbar-brand" href="/">CODE<span class="glyphicon glyphicon-certificate"></span>STAR</a>
-      </nav>
+        <div class="jumbotron introtron text-center">
+          <div class="container">
+            <h1>CODE<span class="glyphicon glyphicon-certificate"></span>STAR</h1>
+            <p>Master the web. Create your future.</p>
+            <a href="/#description-section">
+              <button class="btn btn-red btn-lg">Learn More</button>
+            </a>
+            <a href="/sign_in">
+              <button class="btn btn-red btn-lg">Sign In</button>
+            </a>
+          </div>
+        </div>
 
         <!--[if lt IE 8]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>

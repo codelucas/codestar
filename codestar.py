@@ -10,11 +10,11 @@ __version__ = '0.0.1'
 # Imports
 from flask import Flask
 from flask import render_template
-from flask.ext.scss import Scss
+#from flask.ext.scss import Scss
 
 
 app = Flask(__name__)
-Scss(app)
+#Scss(app)
 
 # routing and controllers
 # =======================
@@ -26,6 +26,10 @@ def home():
 @app.route('/about')
 def about():
     return render_template('about.html')
+
+@app.route('/sign_in')
+def sign_in():
+    return render_template('sign_in.html');
 
 if __name__ == '__main__':
     app.run(debug=True)

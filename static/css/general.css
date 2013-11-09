@@ -1,6 +1,4 @@
 body {
-
-  padding-top: 50px;
 }
 
 body, h1, h2, h3, h4, h5, h6 {
@@ -12,7 +10,38 @@ body, h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
-
 ul {
   list-style-type: none;
+  padding-left: 0px;
 }
+
+.ruby {
+  color: #c61a1a;
+}
+
+.python {
+  color: #376A94;
+}
+
+.btn-red {
+  color: #fff;
+  background-color: #D74B4B;
+  border-color: #af2727;
+}
+.btn-red:hover {
+  color: #fff;
+  background-color: #d23636
+;
+  border-color: #6f1919;
+}
+
+input:focus {
+  border-color: rgba(229, 103, 23, 0.8);
+  box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 8px rgba(229, 103, 23, 0.6);
+  outline: 0 none;
+}
+
+
+
+pkg_resources.get_distribution("Flask-Scss").version
+'0.7.1'

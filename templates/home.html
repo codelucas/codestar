@@ -1,32 +1,46 @@
 {% extends "base.html" %}
 {% block content %}
-<div class="jumbotron introtron text-center">
+
+<div id="home-page">
+
   <div class="container">
-    <h1>CODE<span class="glyphicon glyphicon-certificate"></span>STAR</h1>
-    <p>Master the web. Create your future.</p>
+    <div id="description-section">
+      <div class="title-of-section">What We Do</div>
+      <ul>
+        <li>- We teach you programming: <span class="ruby">Ruby</span>, <span class="python">Python</span>, and More</li>
+        <li>- One-on-one lessons, through real app examples</li>
+        <li>- 100% money back guarantee</li>
+      </ul>
+    </div>
   </div>
-</div>
 
-<div class="jumbotron business-description">
-  <h1>Learn Ruby, Python, and More</h1>
-  <ul>
-    <li>One on One Tutoring</li>
-    <li>Walk Through Blogs, Twitter, and Reddit like apps</li>
-    <li></li>
-    <li></li>
-  </ul>
-</div>
+  <div class="container">
+    <hr>
+  </div>
 
-<div class="jumbotron pricing">
-  <div class="pull-right">
-    <h1>100% Money Back Guarantee</h1>
+  <div class="container">
+    <div id="logistics-section">
+      <div class="title-of-section">Pricing</div>
+      <ul>
+        <li>- $60 per Lesson (1 hour)</li>
+        <li>- Debit, Credit, or Paypal are all accepted</li>
+      </ul>
+    </div>
+  </div>
 
-    <ul>
-      <li>If you're not satisfied, you'll get a 100% refund, no questions asked</li>
-      <li>Taught by people who learned the hard way, and want to make it easy for you</li>
-      <li></li>
-      <li></li>
-    </ul>
+  <div class="container">
+    <hr>
+  </div>
+
+  <div class="container">
+    <div id="philosophy-section">
+      <div class="title-of-section">Our Philosophy</div>
+        <p>
+          Think that code is confusing? Not sure how to build an app that takes features from Twitter or
+          Reddit? We sit down and guide you through apps that you build in the real world. Learn the code,
+          learn the framework, learn the app.
+        </p>
+    </div>
   </div>
 </div>
 {% endblock %}
