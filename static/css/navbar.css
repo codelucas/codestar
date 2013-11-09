@@ -1,7 +1,26 @@
+/* NAVBAR FOR VISITOR */
+/* =================== */
+.logo {
+  color: #DCDDD8;
+}
+
+.logo:hover {
+  text-decoration: none;
+  color: #DCDDD8;
+
+}
+
 .jumbotron {
   margin-bottom: 0px !important;
 }
 
 .introtron {
+  background: #354B5E;
+}
+
+/* NAVBAR FOR WHEN USER IS SIGNED IN */
+/* ================================ */
+
+.navbar-default {
   background: #354B5E;
 }

@@ -15,6 +15,10 @@ ul {
   padding-left: 0px;
 }
 
+a {
+  color: #376A94;
+}
+
 .ruby {
   color: #c61a1a;
 }
@@ -23,6 +27,7 @@ ul {
   color: #376A94;
 }
 
+
 .btn-red {
   color: #fff;
   background-color: #D74B4B;
@@ -30,18 +35,16 @@ ul {
 }
 .btn-red:hover {
   color: #fff;
-  background-color: #d23636
-;
+  background-color: #d23636;
   border-color: #6f1919;
 }
 
-input:focus {
-  border-color: rgba(229, 103, 23, 0.8);
-  box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 8px rgba(229, 103, 23, 0.6);
-  outline: 0 none;
+.btn-red:active {
+  color: #fff;
+
 }
 
+input[type="password"]:focus, input[type="email"]:focus, input[type="text"]:focus {
+  border-color: #5791c1;
+}
 
-
-pkg_resources.get_distribution("Flask-Scss").version
-'0.7.1'

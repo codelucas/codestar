@@ -11,19 +11,22 @@
         <link rel="stylesheet" href="{{ url_for('static', filename='css/general.css') }}" type="text/css" media ="screen"/>
         <link rel="stylesheet" href="{{ url_for('static', filename='css/navbar.css') }}" type="text/css" media ="screen"/>
         <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}" type="text/css" media ="screen"/>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/sign_in.css') }}" type="text/css" media ="screen"/>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/sign_up.css') }}" type="text/css" media ="screen"/>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/user.css') }}" type="text/css" media ="screen"/>
         <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
     </head>
 
     <body>
         <div class="jumbotron introtron text-center">
           <div class="container">
-            <h1>CODE<span class="glyphicon glyphicon-certificate"></span>STAR</h1>
+            <a class="logo" href="/"><h1>CODE<span class="glyphicon glyphicon-certificate"></span>STAR</h1></a>
             <p>Master the web. Create your future.</p>
             <a href="/#description-section">
               <button class="btn btn-red btn-lg">Learn More</button>
             </a>
             <a href="/sign_in">
-              <button class="btn btn-red btn-lg">Sign In</button>
+              <button class="btn btn-red btn-lg">Login</button>
             </a>
           </div>
         </div>

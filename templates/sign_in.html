@@ -1,21 +1,26 @@
 {% extends "base.html" %}
 {% block content %}
+
+<br>
 <div class="row">
-  <div class="col-md-4 col-md-offset-4">
+  <div class="col-md-4 col-md-offset-4" id="sign-in-section">
+    <h1>Login</h1>
     <form role="form" action="" method="post">
       <div class="form-group">
-        <label>Email</label>
         <input type="email" class="form-control" placeholder="Email">
       </div>
 
       <div class="form-group">
-        <label>Password</label>
         <input type="password" class="form-control" placeholder="Password">
       </div>
 
+      <div>Not a member? Sign up here. It's <a href="/sign_up">free</a>.</div>
+
+      <br>
+
+      <button type="submit" class="btn btn-red">Sign In</button>
     </form>
   </div>
-
 </div>
 
 
