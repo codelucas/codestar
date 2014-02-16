@@ -27,21 +27,16 @@ a {
   color: #376A94;
 }
 
-
-.btn-red {
-  color: #fff;
-  background-color: #D74B4B;
-  border-color: #af2727;
-}
-.btn-red:hover {
-  color: #fff;
-  background-color: #d23636;
-  border-color: #6f1919;
+.underline {
+  text-decoration: underline;
 }
 
-.btn-red:active {
-  color: #fff;
+table {
+  background: #354B5E;
+}
 
+thead > tr > th {
+  text-align: center;
 }
 
 input[type="password"]:focus, input[type="email"]:focus, input[type="text"]:focus {

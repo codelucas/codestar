@@ -14,23 +14,13 @@
         <link rel="stylesheet" href="{{ url_for('static', filename='css/sign_in.css') }}" type="text/css" media ="screen"/>
         <link rel="stylesheet" href="{{ url_for('static', filename='css/sign_up.css') }}" type="text/css" media ="screen"/>
         <link rel="stylesheet" href="{{ url_for('static', filename='css/user.css') }}" type="text/css" media ="screen"/>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/button.css') }}" type="text/css" media ="screen"/>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/datepicker.css') }}" type="text/css" media ="screen"/>
+
         <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
     </head>
 
     <body>
-        <div class="jumbotron introtron text-center">
-          <div class="container">
-            <a class="logo" href="/"><h1>CODE<span class="glyphicon glyphicon-certificate"></span>STAR</h1></a>
-            <p>Master the web. Create your future.</p>
-            <a href="/#description-section">
-              <button class="btn btn-red btn-lg">Learn More</button>
-            </a>
-            <a href="/sign_in">
-              <button class="btn btn-red btn-lg">Login</button>
-            </a>
-          </div>
-        </div>
-
         <!--[if lt IE 8]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -41,7 +31,8 @@
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-
+        <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+        <script src="{{ url_for('static', filename='js/user.js') }}"></script>
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=

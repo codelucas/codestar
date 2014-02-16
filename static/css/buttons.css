@@ -1,0 +1,14 @@
+.btn-red {
+  color: #fff;
+  background-color: #D74B4B;
+  border-color: #af2727;
+}
+.btn-red:hover {
+  color: #fff;
+  background-color: #d23636;
+  border-color: #6f1919;
+}
+
+.btn-red:active {
+  color: #fff;
+}
